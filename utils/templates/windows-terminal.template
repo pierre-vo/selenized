@@ -1,9 +1,9 @@
 {
     "name": "!!COL!{name}!",
-    "cursorColor": "!!COL!{fg_1.srgb}!",
-    "selectionBackground": "!!COL!{bg_2.srgb}!",
     "foreground": "!!COL!{fg_0.srgb}!",
     "background": "!!COL!{bg_0.srgb}!",
+    "cursorColor": "!!COL!{fg_1.srgb}!",
+    "selectionBackground": "!!COL!{bg_2.srgb}!",
     "black": "!!COL!{bg_1.srgb}!",
     "red": "!!COL!{red.srgb}!",
     "green": "!!COL!{green.srgb}!",

@@ -1,0 +1,25 @@
+# default statusbar colors
+set-option -g status-style fg='!!COL!{yellow.srgb}!',bg='!!COL!{bg_1.srgb}!'
+
+# default window title colors
+set-window-option -g window-status-style fg='!!COL!{dim_0.srgb}!',bg='!!COL!{bg_1.srgb}!'
+
+# active window title colors
+set-window-option -g window-status-current-style fg='!!COL!{bg_0.srgb}!',bg='!!COL!{fg_0.srgb}!'
+
+# pane border
+set-option -g pane-border-style fg='!!COL!{bg_1.srgb}!'
+set-option -g pane-active-border-style fg='!!COL!{bg_2.srgb}!'
+
+# message text
+set-option -g message-style fg='!!COL!{br_red.srgb}!',bg='!!COL!{bg_1.srgb}!'
+
+# pane number display
+set-option -g display-panes-active-colour '!!COL!{blue.srgb}!'
+set-option -g display-panes-colour '!!COL!{br_red.srgb}!'
+
+# clock
+set-window-option -g clock-mode-colour '!!COL!{green.srgb}!'
+
+# bell
+set-window-option -g window-status-bell-style fg='!!COL!{bg_0.srgb}!',bg='!!COL!{fg_1.srgb}!'
