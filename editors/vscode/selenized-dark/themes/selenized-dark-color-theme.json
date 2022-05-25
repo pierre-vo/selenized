@@ -7,6 +7,9 @@
 		"selection.background":"#325b66",
 		"input.background": "#103c48",
 		"input.foreground": "#adbcbc",
+		"list.activeSelectionBackground": "#325b66",
+		"list.inactiveSelectionBackground": "#174956",
+		"list.hoverBackground": "#325b66",
 
 		"activityBarBadge.background": "#4695f7",
 		// "sideBarTitle.foreground": "#cad9d9",
