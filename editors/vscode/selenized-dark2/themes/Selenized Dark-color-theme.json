@@ -49,7 +49,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#75b938"
+				"foreground": "#dbb32d"
 			}
 		},
 		{
@@ -141,7 +141,6 @@
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "bold",
 				"foreground": "#4695f7"
 			}
 		},
@@ -208,11 +207,22 @@
 	],
 	"colors": {
 		"editor.background": "#103c48",
-		"editorCursor.foreground": "#fa5750",
 		"editor.foreground": "#adbcbc",
-		"editorWhitespace.foreground": "#adbcbc80",
-		"editor.lineHighlightBackground": "#174956",
-		"editor.selectionBackground": "#174956"
+		"focusBorder": "#cad8d9",
+		"selection.background":"#325b66",
+		"input.background": "#103c48",
+		"input.foreground": "#adbcbc",
+		"list.activeSelectionBackground": "#325b66",
+		"list.inactiveSelectionBackground": "#174956",
+		"list.hoverBackground": "#325b66",
+
+		"activityBarBadge.background": "#4695f7",
+		// "sideBarTitle.foreground": "#cad9d9",
+		"sideBar.background": "#103c48a0",
+		// "sideBar.border": "#72898f",
+		"activityBar.background": "#103c48",
+		// "activityBar.border": "#72898f"
+
 	},
 	"name": "Selenized Dark"
 }
