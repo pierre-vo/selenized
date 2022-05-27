@@ -176,23 +176,41 @@
 		"editor.foreground": "#adbcbc",
 		"editor.selectionBackground": "#325b66",
 		"editor.selectionForeground": "#cad8d9",
-		"editor.selectionHighlightBackground": "#174956",
+		// "editor.selectionHighlightBackground": "#174956",
+		"editor.selectionHighlightBorder": "#72898f",
+		"editor.wordHighlightBackground": "#174956",
+		"editor.wordHighlightStrongBackground": "#174956",
+		// "editor.lineHighlightBackground": "#ff0000",
+		"editor.lineHighlightBorder": "#174956",
+
+		"editor.findMatchBackground": "#4695f770",
+		"editor.findMatchHighlightBackground": "#4695f750",
+		"editor.findRangeHighlightBackground": "#41c7b940",
+
 		"editorLineNumber.foreground": "#72898f",
 		"editorLineNumber.activeForeground": "#cad8d9",
-		"editorGroupHeader.tabsBackground": "#174956",
-		"editorGroup.border": "#adbcbc",
+
+		// Base colors
+		"focusBorder": "#72898f",
+		"foreground": "#adbcbc",
+		"disabledForeground": "#72898f",
+		"selection.background":"#325b66",
+		"descriptionForeground": "#72898f",
+		"errorForeground": "#fa5750",
+		"icon.foreground": "#cad8d9",
+		"sash.hoverBorder": "#41c7b9",
+
+		"input.background": "#002634",
+		"input.foreground": "#adbcbc",
+		// "input.border": "#72898f",
 
 		"tab.activeBackground": "#103c48",
 		"tab.activeForeground": "#cad8d9",
-		"tab.inactiveBackground": "#174956",
+		"tab.inactiveBackground": "#00313e",
 		"tab.inactiveForeground": "#adbcbc",
 
-		"selection.background":"#325b66",
-
-		"input.background": "#103c48",
-		"input.foreground": "#adbcbc",
-
-		"focusBorder": "#cad8d9",
+		"editorGroupHeader.tabsBackground": "#00313e",
+		"editorGroup.border": "#adbcbc",
 
 		"list.activeSelectionBackground": "#325b66",
 		"list.inactiveSelectionBackground": "#174956",
@@ -202,7 +220,6 @@
 		"badge.background": "#4695f7",
 
 		"sideBar.background": "#00313e",
-		"sideBar.border": "#325b66",
 		"sideBarTitle.foreground": "#cad8d9",
 		"sideBarSectionHeader.background": "#325b66",
 		"sideBarSectionHeader.foreground": "#cad8d9",
@@ -216,6 +233,22 @@
 		"statusBar.background": "#325b66",
 		"statusBar.foreground": "#cad8d9",
 
+		"button.background": "#325b66",
+		"button.foreground": "#cad8d9",
+
+		"dropdown.background": "#002634",
+		"dropdown.foreground": "#adbcbc",
+
+		// "settings.textInputBackground": "#00313e",
+		// "settings.numberInputBackground": "#00313e",
+
+		// "minimap.background": "#00313e",
+		// "minimap.findMatchHighlight": "#af88eb",
+		// "minimap.selectionHighlight": "#72898f",
+		// "minimap.errorHighlight": "#fa5750",
+
+		"editorWidget.background": "#00313e",
+		"editorWidget.border": "#325b66",
 	},
 	"name": "Selenized Dark"
 }

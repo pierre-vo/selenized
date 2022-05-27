@@ -45,7 +45,8 @@ def generate_palette(
         # (0 - lightness like in bg, 1 - like in fg)
         # For some reason bright background looks washed out without increased saturation
         monotone_spec = {
-            "bg_00":  [-1/10,  1],
+            "bg_00":  [-2/10,  1],
+            "bg_01":  [-1/10,  1],
             "bg_1":  [1/10,  br_bg_extra_saturation],
             "bg_2":  [1/4,   br_bg_extra_saturation],
             "dim_0": [5/8,   1],
