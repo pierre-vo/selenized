@@ -270,11 +270,30 @@
 		"peekViewEditor.matchHighlightBackground": "#af88eb70",
 		"peekViewResult.background": "#00313e",
 		"peekViewResult.fileForeground": "#cad8d9",
-		"peekView.border": "#4695f7"
+		"peekView.border": "#4695f7",
 
 		// "settings.textInputBackground": "#00313e",
 		// "settings.numberInputBackground": "#00313e",
 
+		"terminal.background": "#103c48",
+		"terminal.foreground": "#adbcbc",
+		"terminalCursor.foreground": "#cad8d9",
+		"terminal.ansiBlack": "#174956",
+		"terminal.ansiRed": "#fa5750",
+		"terminal.ansiGreen": "#75b938",
+		"terminal.ansiYellow": "#dbb32d",
+		"terminal.ansiBlue": "#4695f7",
+		"terminal.ansiMagenta": "#f275be",
+		"terminal.ansiCyan": "#41c7b9",
+		"terminal.ansiWhite": "#72898f",
+		"terminal.ansiBrightBlack": "#325b66",
+		"terminal.ansiBrightRed": "#ff665c",
+		"terminal.ansiBrightGreen": "#84c747",
+		"terminal.ansiBrightYellow": "#ebc13d",
+		"terminal.ansiBrightBlue": "#58a3ff",
+		"terminal.ansiBrightMagenta": "#ff84cd",
+		"terminal.ansiBrightCyan": "#53d6c7",
+		"terminal.ansiBrightWhite": "#cad8d9",
 
 	}
 }
