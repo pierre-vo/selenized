@@ -2,3 +2,4 @@
 # (the reader should be interested in the templates)
 editors/vim/colors/*.vim -diff linguist-generated
 
+editors/vim/colors/* linguist-generated
