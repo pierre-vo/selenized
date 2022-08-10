@@ -205,7 +205,7 @@
 		"editorLineNumber.foreground": "#72898f",
 		"editorLineNumber.activeForeground": "#cad8d9",
 
-		"editorWidget.background": "#053743",
+		"editorWidget.background": "#00313e",
 		"editorWidget.border": "#325b66",
 
 		"editorInfo.foreground": "#4695f7",
@@ -220,17 +220,17 @@
 		"editorOverviewRuler.infoForeground": "#4695f7b0",
 		"editorOverviewRuler.warningForeground": "#ebc13db0",
 
-		"input.background": "#00313e",
+		"input.background": "#002634",
 		"input.foreground": "#adbcbc",
 		"input.placeholderForeground": "#adbcbca0",
 		// "input.border": "#72898f",
 
 		"tab.activeBackground": "#103c48",
 		"tab.activeForeground": "#cad8d9",
-		"tab.inactiveBackground": "#053743",
+		"tab.inactiveBackground": "#00313e",
 		"tab.inactiveForeground": "#adbcbc",
 
-		"editorGroupHeader.tabsBackground": "#053743",
+		"editorGroupHeader.tabsBackground": "#00313e",
 		"editorGroup.border": "#adbcbc",
 
 		"list.activeSelectionBackground": "#325b66",
@@ -241,7 +241,7 @@
 		"badge.background": "#4695f7",
 		"progressBar.background": "#4695f7",
 
-		"sideBar.background": "#053743",
+		"sideBar.background": "#00313e",
 		"sideBarTitle.foreground": "#cad8d9",
 		"sideBarSectionHeader.background": "#325b66",
 		"sideBarSectionHeader.foreground": "#cad8d9",
@@ -258,7 +258,7 @@
 		"button.background": "#325b66",
 		"button.foreground": "#cad8d9",
 
-		"dropdown.background": "#00313e",
+		"dropdown.background": "#002634",
 		"dropdown.border": "#72898f",
 		"dropdown.foreground": "#adbcbc",
 
@@ -266,14 +266,14 @@
 		"editorBracketHighlight.foreground2": "#ebc13d",
 		"editorBracketHighlight.foreground3": "#ff84cd",
 
-		"peekViewEditor.background": "#00313e",
+		"peekViewEditor.background": "#002634",
 		"peekViewEditor.matchHighlightBackground": "#af88eb70",
-		"peekViewResult.background": "#053743",
+		"peekViewResult.background": "#00313e",
 		"peekViewResult.fileForeground": "#cad8d9",
 		"peekView.border": "#4695f7",
 
-		// "settings.textInputBackground": "#053743",
-		// "settings.numberInputBackground": "#053743",
+		// "settings.textInputBackground": "#00313e",
+		// "settings.numberInputBackground": "#00313e",
 
 		"terminal.background": "#103c48",
 		"terminal.foreground": "#adbcbc",
