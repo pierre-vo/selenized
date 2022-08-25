@@ -76,25 +76,17 @@
 			"scope": [
 				"storage.type",
 				"keyword.type",
-			],
-			"settings": {
-				"foreground": "#53676d" // fg_0
-			}
-		},
-		{
-			"name": "Storage modifier",
-			"scope": [
 				"storage.modifier"
 			],
 			"settings": {
-				// "foreground": "#8762c6"
+				"foreground": "#8762c6" // violet
 			}
 		},
 		{
 			"name": "entity.name",
 			"scope": "entity.name",
 			"settings": {
-				"foreground": "#ad8900" // violet
+				"foreground": "#ad8900" // yellow
 			}
 		},
 		{
@@ -169,6 +161,104 @@
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#cc1729" // bright red
+			}
+		},
+		{
+			"name": "diff: header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#0072d4" // blue
+			}
+		},
+		{
+			"name": "diff: deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#d2212d" // red
+			}
+		},
+		{
+			"name": "diff: changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#ad8900" // yellow
+			}
+		},
+		{
+			"name": "diff: inserted",
+			"scope": [
+				"markup.inserted",
+				"markup.quote"
+			],
+			"settings": {
+				"foreground": "#489100" // green
+			}
+		},
+		{
+			"name": "Markup Lists",
+			"scope": "markup.list",
+			"settings": {
+				"foreground": "#c25d1e" // orange
+			}
+		},
+		{
+			"name": "Markup Styling",
+			"scope": [
+				"markup.bold",
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#ca4898" // magenta
+			}
+		},
+		{
+			"name": "Markup: Strong",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Markup: Emphasis",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": "markup.strikethrough",
+			"settings": {
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#009c8f" // cyan
+			}
+		},
+		{
+			"name": "Markup Headings",
+			"scope": [
+				"markup.heading",
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#0072d4" // blue
+			}
+		},
+		{
+			"name": "Markup Setext Header",
+			"scope": "markup.heading.setext",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0072d4" // blue
 			}
 		}
 	],
