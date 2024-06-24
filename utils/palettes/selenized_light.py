@@ -11,4 +11,3 @@ palette = selenized_base.generate_palette(
     accent_l_spread=15,
     br_bg_extra_saturation=1,
 )
-

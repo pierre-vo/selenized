@@ -1,0 +1,299 @@
+{
+	"name": "Selenized Dark",
+	"tokenColors": [
+		{
+			"settings": {
+				"background": "!!COL!{bg_0.srgb}!",
+				"foreground": "!!COL!{fg_0.srgb}!" // fg_0
+			}
+		},
+		{
+			"name": "Comment",
+			"scope": "comment",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "!!COL!{dim_0.srgb}!" // dim_0
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string",
+			"settings": {
+				"foreground": "!!COL!{cyan.srgb}!" // cyan
+			}
+		},
+		{
+			"name": "Regexp",
+			"scope": "string.regexp",
+			"settings": {
+
+				"foreground": "!!COL!{br_yellow.srgb}!" // bright yellow
+			}
+		},
+		{
+			"name": "Constants (including numbers)",
+			"scope": "constant",
+			"settings": {
+				// "foreground": "!!COL!{fg_1.srgb}!", // pink
+			}
+		},
+		{
+			"name": "Language constants (booleans)",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "!!COL!{magenta.srgb}!"
+			}
+		},
+		{
+			"name": "Formatting placeholders, escaped characters",
+			"scope": [
+				"constant.other.placeholder",
+				"constant.character.format",
+				"constant.character.escape",
+				"punctuation.section.embedded.begin",
+				"punctuation.section.embedded.end"
+			],
+			"settings": {
+				"foreground": "!!COL!{blue.srgb}!", // blue
+			}
+		},
+		{
+			"name": "constant.other",
+			"scope": "constant.other",
+			"settings": {
+				// "foreground": "!!COL!{violet.srgb}!" // violet
+			}
+		},
+		{
+			"name": "Keyword control flow",
+			"scope": "keyword.control",
+			"settings": {
+				"foreground": "!!COL!{orange.srgb}!" // orange
+			}
+		},
+		{
+			"name": "Storage types",
+			"scope": [
+				"storage.type",
+				"keyword.type",
+			],
+			"settings": {
+				"foreground": "!!COL!{fg_0.srgb}!" // fg_0
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": [
+				"storage.modifier"
+			],
+			"settings": {
+				// "foreground": "!!COL!{violet.srgb}!"
+			}
+		},
+		{
+			"name": "entity.name",
+			"scope": "entity.name",
+			"settings": {
+				"foreground": "!!COL!{yellow.srgb}!" // violet
+			}
+		},
+		{
+			"name": "Function name",
+			"scope": "entity.name.function",
+			"settings": {
+				"foreground": "!!COL!{blue.srgb}!" // blue
+			}
+		},
+
+		{
+			"name": "Variable",
+			"scope": [
+				"variable.language",
+				"variable.other",
+				"entity.name.variable"
+			],
+			"settings": {
+				"foreground": "!!COL!{fg_0.srgb}!"
+			}
+		},
+		{
+			"name": "Function parameter",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				// "foreground": "!!COL!{fg_1.srgb}!",
+			}
+		},
+		// {
+		// 	"name": "Variable start",
+		// 	"scope": "punctuation.definition.variable",
+		// 	"settings": {
+		// 		"foreground": "!!COL!{green.srgb}!"
+		// 	}
+		// },
+
+		{
+			"name": "Tag attribute (HTML)",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "!!COL!{blue.srgb}!" // blue
+			}
+		},
+		{
+			"name": "Library/builtin function",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "!!COL!{blue.srgb}!" // blue
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"foreground": "!!COL!{green.srgb}!" // green
+			}
+		},
+		{
+			"name": "Continuation",
+			"scope": "punctuation.separator.continuation",
+			"settings": {
+				"foreground": "!!COL!{red.srgb}!" // red
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid",
+			"settings": {
+				"foreground": "!!COL!{br_red.srgb}!" // bright red
+			}
+		}
+	],
+	"colors": {
+		// Base colors
+		"focusBorder": "!!COL!{dim_0.srgb}!",
+		"foreground": "!!COL!{fg_0.srgb}!",
+		"disabledForeground": "!!COL!{dim_0.srgb}!",
+		"selection.background":"!!COL!{bg_2.srgb}!",
+		"descriptionForeground": "!!COL!{dim_0.srgb}!",
+		"errorForeground": "!!COL!{red.srgb}!",
+		"icon.foreground": "!!COL!{fg_1.srgb}!",
+		"sash.hoverBorder": "!!COL!{cyan.srgb}!",
+
+		"editor.background": "!!COL!{bg_0.srgb}!",
+		"editor.foreground": "!!COL!{fg_0.srgb}!",
+		"editorCursor.background": "!!COL!{bg_0.srgb}!",
+		"editorCursor.foreground": "!!COL!{fg_1.srgb}!",
+
+		"editor.selectionBackground": "!!COL!{bg_2.srgb}!",
+		"editor.selectionForeground": "!!COL!{fg_1.srgb}!",
+		"editor.selectionHighlightBackground": "!!COL!{bg_1.srgb}!",
+		"editor.selectionHighlightBorder": "!!COL!{dim_0.srgb}!",
+		"editor.wordHighlightBackground": "!!COL!{bg_1.srgb}!",
+		"editor.wordHighlightBorder": "!!COL!{dim_0.srgb}!",
+		"editor.wordHighlightStrongBackground": "!!COL!{bg_1.srgb}!",
+		"editor.wordHighlightStrongBorder": "!!COL!{dim_0.srgb}!",
+		"editor.lineHighlightBorder": "!!COL!{bg_1.srgb}!",
+
+		"editor.findMatchBackground": "!!COL!{violet.srgb}!70",
+		"editor.findMatchHighlightBackground": "!!COL!{violet.srgb}!50",
+		"editor.findRangeHighlightBackground": "!!COL!{cyan.srgb}!40",
+
+		"editorLineNumber.foreground": "!!COL!{dim_0.srgb}!",
+		"editorLineNumber.activeForeground": "!!COL!{fg_1.srgb}!",
+
+		"editorWidget.background": "!!COL!{bg_01.srgb}!",
+		"editorWidget.border": "!!COL!{bg_2.srgb}!",
+
+		"editorInfo.foreground": "!!COL!{blue.srgb}!",
+		"editorWarning.foreground": "!!COL!{br_yellow.srgb}!",
+		"editorError.foreground": "!!COL!{br_red.srgb}!",
+
+		"minimap.findMatchHighlight": "!!COL!{violet.srgb}!a0",
+		"minimap.selectionHighlight": "!!COL!{fg_1.srgb}!",
+		"minimap.selectionOccurrenceHighlight": "!!COL!{dim_0.srgb}!90",
+
+		"editorOverviewRuler.findMatchForeground": "!!COL!{violet.srgb}!b0",
+		"editorOverviewRuler.infoForeground": "!!COL!{blue.srgb}!b0",
+		"editorOverviewRuler.warningForeground": "!!COL!{br_yellow.srgb}!b0",
+
+		"input.background": "!!COL!{bg_00.srgb}!",
+		"input.foreground": "!!COL!{fg_0.srgb}!",
+		"input.placeholderForeground": "!!COL!{fg_0.srgb}!a0",
+		// "input.border": "!!COL!{dim_0.srgb}!",
+
+		"tab.activeBackground": "!!COL!{bg_0.srgb}!",
+		"tab.activeForeground": "!!COL!{fg_1.srgb}!",
+		"tab.inactiveBackground": "!!COL!{bg_01.srgb}!",
+		"tab.inactiveForeground": "!!COL!{fg_0.srgb}!",
+
+		"editorGroupHeader.tabsBackground": "!!COL!{bg_01.srgb}!",
+		"editorGroup.border": "!!COL!{fg_0.srgb}!",
+
+		"list.activeSelectionBackground": "!!COL!{bg_2.srgb}!",
+		"list.inactiveSelectionBackground": "!!COL!{bg_1.srgb}!",
+		"list.hoverBackground": "!!COL!{bg_2.srgb}!",
+		"list.dropBackground": "!!COL!{blue.srgb}!40",
+
+		"badge.background": "!!COL!{blue.srgb}!",
+		"progressBar.background": "!!COL!{blue.srgb}!",
+
+		"sideBar.background": "!!COL!{bg_01.srgb}!",
+		"sideBarTitle.foreground": "!!COL!{fg_1.srgb}!",
+		"sideBarSectionHeader.background": "!!COL!{bg_2.srgb}!",
+		"sideBarSectionHeader.foreground": "!!COL!{fg_1.srgb}!",
+
+		"activityBar.background": "!!COL!{bg_1.srgb}!",
+		"activityBar.activeBackground": "!!COL!{bg_2.srgb}!",
+
+		"titleBar.activeBackground": "!!COL!{bg_0.srgb}!",
+		"titleBar.inactiveBackground": "!!COL!{bg_1.srgb}!",
+
+		"statusBar.background": "!!COL!{bg_2.srgb}!",
+		"statusBar.foreground": "!!COL!{fg_1.srgb}!",
+
+		"button.background": "!!COL!{bg_2.srgb}!",
+		"button.foreground": "!!COL!{fg_1.srgb}!",
+
+		"dropdown.background": "!!COL!{bg_00.srgb}!",
+		"dropdown.border": "!!COL!{dim_0.srgb}!",
+		"dropdown.foreground": "!!COL!{fg_0.srgb}!",
+
+		"editorBracketHighlight.foreground1": "!!COL!{br_violet.srgb}!",
+		"editorBracketHighlight.foreground2": "!!COL!{br_yellow.srgb}!",
+		"editorBracketHighlight.foreground3": "!!COL!{br_magenta.srgb}!",
+
+		"peekViewEditor.background": "!!COL!{bg_00.srgb}!",
+		"peekViewEditor.matchHighlightBackground": "!!COL!{violet.srgb}!70",
+		"peekViewResult.background": "!!COL!{bg_01.srgb}!",
+		"peekViewResult.fileForeground": "!!COL!{fg_1.srgb}!",
+		"peekView.border": "!!COL!{blue.srgb}!",
+
+		// "settings.textInputBackground": "!!COL!{bg_01.srgb}!",
+		// "settings.numberInputBackground": "!!COL!{bg_01.srgb}!",
+
+		"terminal.background": "!!COL!{bg_0.srgb}!",
+		"terminal.foreground": "!!COL!{fg_0.srgb}!",
+		"terminalCursor.foreground": "!!COL!{fg_1.srgb}!",
+		"terminal.ansiBlack": "!!COL!{bg_1.srgb}!",
+		"terminal.ansiRed": "!!COL!{red.srgb}!",
+		"terminal.ansiGreen": "!!COL!{green.srgb}!",
+		"terminal.ansiYellow": "!!COL!{yellow.srgb}!",
+		"terminal.ansiBlue": "!!COL!{blue.srgb}!",
+		"terminal.ansiMagenta": "!!COL!{magenta.srgb}!",
+		"terminal.ansiCyan": "!!COL!{cyan.srgb}!",
+		"terminal.ansiWhite": "!!COL!{dim_0.srgb}!",
+		"terminal.ansiBrightBlack": "!!COL!{bg_2.srgb}!",
+		"terminal.ansiBrightRed": "!!COL!{br_red.srgb}!",
+		"terminal.ansiBrightGreen": "!!COL!{br_green.srgb}!",
+		"terminal.ansiBrightYellow": "!!COL!{br_yellow.srgb}!",
+		"terminal.ansiBrightBlue": "!!COL!{br_blue.srgb}!",
+		"terminal.ansiBrightMagenta": "!!COL!{br_magenta.srgb}!",
+		"terminal.ansiBrightCyan": "!!COL!{br_cyan.srgb}!",
+		"terminal.ansiBrightWhite": "!!COL!{fg_1.srgb}!",
+
+	}
+}

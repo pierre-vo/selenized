@@ -1,0 +1,41 @@
+{
+    "name": "selenized",
+    "displayName": "Selenized",
+    "description": "A theme based on jan-warchol/selenized color palette",
+    "publisher": "bloertscher",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bloertscher/selenized"
+    },
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Selenized Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Selenized dark-color-theme.json"
+            },
+            {
+                "label": "Selenized Light",
+                "uiTheme": "vs",
+                "path": "./themes/Selenized light-color-theme.json"
+            },
+            {
+                "label": "Selenized White",
+                "uiTheme": "vs",
+                "path": "./themes/Selenized white-color-theme.json"
+            },
+            {
+                "label": "Selenized Black",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Selenized black-color-theme.json"
+            }
+        ]
+    }
+}

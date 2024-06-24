@@ -1,0 +1,27 @@
+This is an example template. Run
+
+    python evaluate_template.py <palette file> <path to this file>
+
+to evaluate this template.
+
+To access a color, use a format directive with the color name (which is a key in palette dict):
+ 75   6  68    46  79  86   #dbb32d   #d1a416   # this is the full string representation of color 'yellow' from the palette
+
+You can access attributes of a color just as you would with ordinary object:
+#dbb32d   # this is srgb attribute of yellow
+219   # this is srgb red attribute of yellow
+0.8189937348631952   # this is apple red attribute of yellow
+
+You can also use python's formats e.g. to cast an attribute to hex etc.:
+DB    # uppercase hex
+db  # lowercase hex, with at least 2 digits
+219    # decimal
+0.860082   # float
+
+The default delimiter (!) can be changed, e.g. to %: #dbb32d
+#dbb32d you can also add some text inside format specification. #d1a416
+
+In particular, it's possible to access multiple colors/attributes/formats in one format:
+10103c3c4848   # gnome-terminal
+0.860082 0.701859 0.176782   # something like iTerm
+
